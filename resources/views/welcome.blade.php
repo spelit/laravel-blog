@@ -65,6 +65,9 @@
         </style>
     </head>
     <body>
+        <div id="app">
+            <example-component></example-component>
+        </div>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -92,5 +95,8 @@
                 </div>
             </div>
         </div>
+        
+        <script src="js/app.js"></script>
+            
     </body>
 </html>
